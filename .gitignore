@@ -1,0 +1,22 @@
+# Angular
+frontend/.angular/
+frontend/node_modules/
+frontend/dist/
+frontend/.vscode/
+frontend/.idea/
+
+# Python
+1.api/__pycache__/
+1.api/*.pyc
+1.api/.idea/
+1.api/venv/
+1.api/env/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE
+*.swp
+*.swo
+*~
