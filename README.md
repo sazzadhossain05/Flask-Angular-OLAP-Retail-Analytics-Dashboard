@@ -113,7 +113,7 @@ npm install
 ng serve
 ```
 
-The application will be available at `http://localhost:4200`
+
 
 ## 🔌 API Endpoints
 
@@ -179,8 +179,8 @@ This project was developed as part of a software engineering internship. Contrib
 
 ## 👨‍💻 Developer
 
-Developed during Software Engineering Internship (September - December 2023)
+Developed during Data Analytics Internship (September - December 2023)
 
 ---
 
-**Note**: This is an academic/internship project demonstrating full-stack development and business intelligence capabilities.
+**Note**: This is an academic internship project demonstrating full-stack development and business intelligence capabilities.
