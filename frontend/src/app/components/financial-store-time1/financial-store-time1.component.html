@@ -1,0 +1,126 @@
+<main class="content px-3 py-2">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12 d-flex">
+        <div class="card flex-fill border-0">
+          <div class="card-body p-0 d-flex flex-fill">
+            <div class="row g-0 w-100">
+              <div class="col-6">
+                <div class="p-3 m-1">
+                  <h4 class="mb-0" style="font-weight: normal">Yearly Total Sales in Each Division</h4>
+                </div>
+              </div>
+              <div class="col-6">
+                <div class="p-3 m-1">
+                  <p style="text-align: right" class="mb-0">
+                    <span style="color: #b6b6b4; font-weight: normal">Financial Analytics / Store and Time /
+                    </span>
+                    <a style="
+                        color: black;
+                        font-weight: normal;
+                        text-decoration: none;
+                      ">
+                      Analytics 1
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 d-flex">
+        <div class="card flex-fill border-0">
+          <div class="card-body py-4">
+            <div class="d-flex align-items-start">
+              <div class="flex-grow-1">
+                <div class="chart-wrapper">
+                  <canvas baseChart [type]="'line'" [datasets]="chartData" [labels]="chartLabels"
+                    [options]="chartOptions">
+                  </canvas>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-12 col-md-12 d-flex">
+        <div class="card flex-fill border-0">
+          <div class="card-body py-4">
+            <div class="d-flex align-items-start">
+              <div class="flex-grow-1">
+                <nav>
+                  <div class="nav nav-tabs" id="nav-tab" role="tablist">
+                    <button class="nav-link active" id="nav-home-tab" data-bs-toggle="tab" data-bs-target="#nav-home"
+                      type="button" role="tab" aria-controls="nav-home" aria-selected="true">
+                      Summary
+                    </button>
+                    <button class="nav-link" id="nav-profile-tab" data-bs-toggle="tab" data-bs-target="#nav-profile"
+                      type="button" role="tab" aria-controls="nav-profile" aria-selected="false">
+                      Analytics
+                    </button>
+                  </div>
+                </nav>
+                <div class="tab-content p-2" id="nav-tabContent">
+                  <div class="tab-pane fade show active" id="nav-home" role="tabpanel" aria-labelledby="nav-home-tab"
+                    tabindex="0">
+                    <h6 class="py-3">
+                      This chart shows the Yearly total sales in each division from 2014 to 2022.
+                      Here are some of the key findings from the chart:
+                    </h6>
+                    <ol>
+                      <li class="pb-3">
+                        <strong>Total sales have quietly increased in a few divisions over the past eight
+                          years.</strong>
+                        The most significant sales were in Dhaka, where sales from 2014 to 2016 significantly increased,
+                        but in 2017, a sudden drop but at least the starting year.
+                        Then, there was an increase in growth till 2020; after that, sales dropped each year.
+                        Rajshahi, Khulna, Sylhet, and Mymensing also show up and down sales.
+                        Meanwhile, sales in the other divisions grew less significantly.
+                      </li>
+                      <li>
+                        <strong>Dhaka is the clear leader in terms of total sales.</strong>
+                        2016 Dhaka's sales were <font style="color:red;">698,523(tk)</font>, the highest in all
+                        divisions.
+                        Rajshahi, Khulna, Sylhet, and Mymensing were the following closest divisions.
+                      </li>
+                    </ol>
+                  </div>
+                  <div class="tab-pane fade" id="nav-profile" role="tabpanel" aria-labelledby="nav-profile-tab"
+                    tabindex="0">
+                    <h6 class="py-3">
+                      This chart shows the Yearly total sales in each division from 2014 to 2022.
+                    </h6>
+                    <ol>
+                      <li class="pb-3">
+                        From an e-commerce point of view, this chart is essential to monitor yearly sales in each
+                        division. Which division sales are better and which are not, and which are sales growth or
+                        downfall, can clearly be seen from this chart. From the chart, almost every division performs
+                        better up and down in every division sales.
+                      </li>
+                      <li class="pb-3">
+                        In the future, all stores can be shut down if it does not perform better. If any division's
+                        sales growth continuously decreases, all stores in that division can be shut down to prevent
+                        loss.
+                      </li>
+                      <li>
+                        If any division performs better and sales growth keeps increasing, more stores can be opened, or
+                        more products can be supplied to earn more profit.
+                      </li>
+                    </ol>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</main>
